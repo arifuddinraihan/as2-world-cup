@@ -1,0 +1,120 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Manrope&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&display=swap');
+
+/* Common Styles */
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----Header Style----- */
+.cover{
+    width: 1321px;
+    background: #161616;
+    border-radius: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    padding: 0 80px;
+    margin-top: 50px;
+    transition: justify-content 5s ease 1s;
+}
+.cover:hover{
+    justify-content: space-between;
+}
+.cover-text{
+    color: white;
+    width: 531px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 25px;
+    gap: 10px;
+}
+.cover-text h2{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.cover-text p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.cover-text a{
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 25px;
+    gap: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.cover-text a:hover {
+    background-color: white;
+    color: #DD0000;
+}
+.cover-image{
+    width: 700px;
+    margin-bottom: -7px;
+}
+
+/* -- Main style -- */
+
+
+
+/* section style */
+.content-section{
+    margin-top: 150px;
+}
+.container {
+    width: 1321px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+/* ------------
+    features box style 
+    --------------------*/
+.feature-box{
+    width: 290px;
+    height: 280px;
+    background: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button{
+    color: #161616;;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    padding: 10px 24px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.button:hover {
+    color: white;
+    background-color: red;
+
+}
+
+/* -------------
+    content box styles
+    --------------------- */
+.responsive-box {
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
