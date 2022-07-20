@@ -201,6 +201,10 @@ footer hr{
     width: 300px;
 
 }
+.footer-link a{
+    text-decoration: none;
+    color: #B9B9B9;
+}
 
 /* ---------------------
     2nd HTML Page match-fixturesh
