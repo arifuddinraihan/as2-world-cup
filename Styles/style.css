@@ -202,4 +202,36 @@ footer hr{
 
 }
 
+/* ---------------------
+    2nd HTML Page match-fixturesh
+    -------------------------------- */
+.match-fixtures{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.single-match{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.match-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.single-match h3{
+    margin: 15px 0 5px;
+}
+.single-match p{
+    margin: 0;
+    color: #4D4D4D;
+}
+
 
