@@ -362,7 +362,10 @@ footer hr{
    ------------------ */
 
 @media only screen and (min-width:689px) and (max-width:992px) {
-
+    body{
+        width: 100vw;
+        margin: 0;
+    }   
     .cover{
         width: 80vw;
         padding-right: 0;
