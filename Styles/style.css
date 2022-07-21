@@ -336,9 +336,117 @@ footer hr{
         font-size: 14px;
     }
     .footer-link{
+        margin-top: 40px;
         justify-items: center;
         margin-bottom: 10px 0;
     }
     
 
+}
+
+/* ------------------
+    Tablet Devices 
+   ------------------ */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    body{
+        width: 100vw;
+        margin: 0;
+    }
+    .cover{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        border-radius: 0;
+    }
+    .cover-text{
+        margin-top: 40px;
+        margin-left: 30px;
+        padding: 0;
+        width: 50vw;
+        display: flex;
+        text-align: left;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cover h2{
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
+    }
+    .cover-text p{
+        font-size: 14px;
+        margin-top: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .cover-image{
+        width: 50vw;
+    }
+    .cover-image img{
+        width: 50vw;
+    }
+
+    /* mobile content styles */
+    .content-section{
+        margin-top: 10px;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-box{
+        height: 100px;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #F3F1FF;
+        margin-bottom: 10px;
+    }
+    .button{
+        background-color: #F3F1FF;
+        border: 1px solid #F3F1FF;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .responsive-box{
+        margin: 0;
+    }
+    .contents{
+        width: 80vw;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 40px;
+    }
+/* footer  style */
+    footer{
+        justify-content: flex-start
+    }
+    footer h2{
+        font-size: 22px;
+    }
+    footer hr{
+        border: .25px solid rgb(185, 181, 181);
+    }
+    .footer-info{
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 200px;
+    }
+    .footer-info p{
+        font-size: 14px;
+    }
+    .footer-link{
+        margin-top: 40px;
+        justify-items: center;
+        margin-bottom: 10px 0;
+    }
+    
 }
