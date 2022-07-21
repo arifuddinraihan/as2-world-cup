@@ -343,6 +343,16 @@ footer hr{
         justify-items: center;
         margin-bottom: 10px 0;
     }
+/* mobile matche page style */
+    .match-fixtures{
+        display: grid;
+        grid-template-columns: none;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .single-match{
+        width: 80vw;
+    }
     
 
 }
@@ -387,10 +397,11 @@ footer hr{
     .cover-image img{
         width: 40vw;
     }
-
+    
     /* -------
     tablet content styles
     ------------- */
+
     .content-section{
         margin-top: 10px;
     }
@@ -444,6 +455,15 @@ footer hr{
         font-weight: 600;
         font-size: 24px;
     }
+/* tablet matche page style */
+    .match-fixtures{
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .single-match{
+        width: 40vw;
+    }
+
+
 /* footer  style */
     footer{
         width: 100vw;
