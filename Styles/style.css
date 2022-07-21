@@ -168,8 +168,7 @@ footer{
     width: 1600px;
     height: 444px;
     margin-top: 130px;
-    background-color: #161616;
-    color: white;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -178,6 +177,7 @@ footer{
 footer h2{
     font-weight: 600;
     font-size: 40px;
+    color: white;
 }
 footer hr{
     width:1600px;
@@ -245,7 +245,7 @@ footer hr{
 /* Mobile Devices */
 
 @media only screen and (max-width:688px) {
-    .body{
+    body{
         width: 100vw;
         margin: 0;
     }
@@ -258,7 +258,9 @@ footer hr{
         margin-top: 0;
     }
     .cover-text{
-        width: 100%;
+        margin-top: 40px;
+        padding: 0;
+        width: 70%;
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -272,9 +274,9 @@ footer hr{
         margin: 0;
     }
     .cover-text p{
-        width: 100vw;
+        width: 60%;
         font-size: 14px;
-        margin: 0 50px;
+        margin-top: 10px;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
@@ -283,7 +285,7 @@ footer hr{
         width: 100vw;
     }
     .cover-image img{
-        width: 390px;
+        width: 100vw;
     }
 
     /* mobile content styles */
@@ -314,15 +316,16 @@ footer hr{
         grid-template-columns: none;
     }
 /* footer  style */
-    .footer{
-        width: 100%;
-        height: 500px;
-        height: 0px;
-        margin-top: 10px;
+    footer{
+        width: 100vw;
         justify-content: flex-start
     }
-    .footer h2{
+    footer h2{
         font-size: 22px;
+    }
+    footer hr{
+        border: .25px solid rgb(185, 181, 181);
+        width: 100vw;
     }
     .footer-info{
         margin: 0;
