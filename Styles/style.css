@@ -160,7 +160,9 @@ body{
     color: white;
     background-color: black;
 }
-
+.hidden-button{
+    visibility: hidden;
+}
 /* ---------- 
     footer styles
     -------------- */
@@ -315,6 +317,7 @@ footer hr{
         padding: 0;
         grid-template-columns: none;
     }
+    
 /* footer  style */
     footer{
         width: 100vw;
@@ -349,27 +352,22 @@ footer hr{
    ------------------ */
 
 @media only screen and (min-width:689px) and (max-width:992px) {
-    body{
-        width: 100vw;
-        margin: 0;
-    }
+
     .cover{
-        width: 100vw;
+        width: 80vw;
+        padding-right: 0;
         display: flex;
         flex-direction: row;
-        border-radius: 0;
+        border-radius: 10px;
     }
     .cover-text{
-        margin-top: 40px;
-        margin-left: 30px;
         padding: 0;
-        width: 50vw;
+        width: 40vw;
         display: flex;
         text-align: left;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
     .cover h2{
         font-size: 24px;
@@ -384,13 +382,15 @@ footer hr{
         overflow: hidden;
     }
     .cover-image{
-        width: 50vw;
+        width: 30vw;
     }
     .cover-image img{
-        width: 50vw;
+        width: 40vw;
     }
 
-    /* mobile content styles */
+    /* -------
+    tablet content styles
+    ------------- */
     .content-section{
         margin-top: 10px;
     }
@@ -423,14 +423,37 @@ footer hr{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 40px;
     }
+    #hidden-content{
+        display: none;
+    }
+    .hidden-button{
+        visibility: visible;
+        border: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .view-all-button{
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 0;
+        border: 1px solid red;
+        border-radius: 5px;
+        color: white;
+        background-color: red;
+        font-weight: 600;
+        font-size: 24px;
+    }
 /* footer  style */
     footer{
+        width: 100vw;
         justify-content: flex-start
     }
     footer h2{
         font-size: 22px;
     }
     footer hr{
+        width: 100vw;
         border: .25px solid rgb(185, 181, 181);
     }
     .footer-info{
